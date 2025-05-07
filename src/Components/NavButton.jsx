@@ -1,9 +1,12 @@
-const NavButton = ({ text }) => {
-    return (
-        <button class="font-bebas">
-            {text}
-        </button>
-    );
-}
+const NavButton = ({ id, text }) => {
+  return (
+    <button
+      id={id}
+      class="font-bebas hover:text-white text-5xl text-primary-frog"
+    >
+      {text}
+    </button>
+  );
+};
 
 export default NavButton;

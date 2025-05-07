@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
-
+@custom-variant hover (&:hover);
 @theme {
     --font-bebas: "Bebas Neue", sans-serif;
+    --color-primary-frog: #B8C850;
+}
+
+@utility no-scrollbar {
+    @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+  }
+
+@layer base {
+    h1{
+        font-family: var(--font-bebas);
+        font-size: 8rem;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    p{
+        font-family: var(--font-bebas);
+        font-size: 2rem;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
 }
