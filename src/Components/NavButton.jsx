@@ -1,10 +1,12 @@
-const NavButton = ({ id, text }) => {
+import { Link } from "react-router-dom";
+
+const NavButton = ({ id, text, url }) => {
   return (
     <button
       id={id}
       class="font-bebas hover:text-white text-5xl text-primary-frog"
     >
-      {text}
+      <Link to={url}>{text}</Link>
     </button>
   );
 };

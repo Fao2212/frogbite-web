@@ -1,15 +1,12 @@
+import SnapSection from "../components/SnapSection";
+
 const Services = () => {
-    return (
-        <div className="services">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of services to meet your needs.</p>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </div>
-    );
-}
+  return (
+    <SnapSection id="services" classProps="bg-green-400">
+      <h1>Our Services</h1>
+      <p>We offer a wide range of services to meet your needs.</p>
+    </SnapSection>
+  );
+};
 
 export default Services;

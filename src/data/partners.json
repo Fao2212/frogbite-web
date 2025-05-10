@@ -1,9 +1,8 @@
 {
     "partners": [
-        {"name": "banana", "image": "src/assets/partners/banana.png"},
-        {"name": "devhouse", "image": "src/assets/partners/devhouse.png"},
-        {"name": "asodev", "image": "src/assets/partners/asodev.png"},
-        {"name": "cidev", "image": "src/assets/partners/cidev.png"}
+        {"name": "banana", "image": "./partners/banana.png"},
+        {"name": "devhouse", "image": "./partners/devhouse.png"},
+        {"name": "asodev", "image": "./partners/asodev.png"},
+        {"name": "cidev", "image": "./partners/cidev.png"}
     ]
 }
- 
